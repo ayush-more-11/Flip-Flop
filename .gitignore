@@ -1,0 +1,31 @@
+# Vivado generated/project files
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.xpr
+*.jou
+*.log
+*.str
+*.backup.*
+
+# Keep clean source files
+!T-Flip Flop/src/*.v
+!D-Flip Flop/src/*.v
+
+# Keep simulation/result images
+!T-Flip Flop/results/*.jpg
+!T-Flip Flop/results/*.jpeg
+!T-Flip Flop/results/*.png
+!D-Flip Flop/results/*.jpg
+!D-Flip Flop/results/*.jpeg
+!D-Flip Flop/results/*.png
+
+
+# Repository files
+!README.md
+!LICENSE
+!.gitignore
